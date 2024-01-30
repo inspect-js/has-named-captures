@@ -1,11 +1,18 @@
 'use strict';
 
 var test = require('tape');
+var semver = require('semver');
 var hasNamedCaptures = require('../');
 
 test('hasNamedCaptures', function (t) {
 	t.equal(typeof hasNamedCaptures, 'function', 'is a function');
 	t.equal(typeof hasNamedCaptures(), 'boolean', 'returns a boolean');
+
+	t.equal(
+		hasNamedCaptures(),
+		semver.satisfies(process.version, '>= 10'),
+		'matches expected result in node'
+	);
 
 	t.end();
 });

@@ -44,6 +44,7 @@
 	"homepage": "https://github.com/inspect-js/has-named-captures#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
+		"@types/semver": "^7.5.6",
 		"@types/tape": "^5.6.4",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
@@ -53,6 +54,7 @@
 		"npmignore": "^0.3.1",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
+		"semver": "^6.3.1",
 		"tape": "^5.7.4",
 		"typescript": "next"
 	},
