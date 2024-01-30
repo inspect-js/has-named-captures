@@ -1,6 +1,6 @@
 {
 	"name": "has-named-captures",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Does the JS environment support named capture groups in regexes?",
 	"main": "index.js",
 	"exports": {
